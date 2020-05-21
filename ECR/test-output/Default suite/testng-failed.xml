@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="login.Login_Neg01">
+      <class name="mendixnew.Inbox">
         <methods>
-          <include name="teardown"/>
-          <include name="Setup"/>
-          <include name="getResult"/>
           <include name="setUp"/>
-          <include name="testNegative"/>
           <include name="tearDown"/>
+          <include name="testInbox"/>
         </methods>
-      </class> <!-- login.Login_Neg01 -->
+      </class> <!-- mendixnew.Inbox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
